@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshar Lights: Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="header">
+        <img src="images\header\logo.png" alt="" class="logo">
+        <div id="navbar">
+            <li><a href="index.html" id="header_item">Home</a></li>
+            <li><a href="lights.html" id="header_item">Lights</a></li>
+            <li><a href="fans.html" id="header_item">Fans</a></li>
+            <li><a href="geysers.html" id="header_item">Geysers</a></li>
+            <li><a href="contact.html" id="header_item">Contact</a></li>
+            <li><a href="cart.html" class="active"><img src="images\header\cart.gif" alt="" id="cart"></a></li>
+        </div>
+    </section>
+    <section class="banner">
+
+        <h1>Your cart</h1>
+        <h4>Thanks For Shopping</h4>
+
+    </section>
+    <section id="cart">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td class="section-p1">Remove</td>
+                    <td class="section-p1">Image</td>
+                    <td class="section-p1">Product</td>
+                    <td class="section-p1">Price</td>
+                    <td class="section-p1">Quantity</td>
+                    <td class="section-p1">Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="section-p1"> <a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td class="section-p1"><img src="images/Fans/15.jpeg" alt=""></td>
+                    <td class="section-p1">Rs:56750</td>
+                    <td class="section-p1">Decorative Fan With Glass Crystals In Center</td>
+                    <td class="section-p1"><input type="number" value="1" class="quant"></td>
+                    <td class="section-p1">Rs: 56750</td>
+                </tr>
+                <tr>
+                    <td class="section-p1"><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td class="section-p1"><img src="images/lights/1.jpeg" alt=""></td>
+                    <td class="section-p1">Rs:9550</td>
+                    <td class="section-p1">Decorative Wall Light</td>
+                    <td class="section-p1"><input type="number" value="1" class="quant"></td>
+                    <td class="section-p1">Rs: 9550</td>
+                </tr>
+                <tr>
+                    <td class="section-p1"><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td class="section-p1"><img src="images/Geysers/3.png" alt=""></td>
+                    <td class="section-p1">Rs:64600</td>
+                    <td class="section-p1">Heat Pump Water Geyser</td>
+                    <td class="section-p1"><input type="number" value="1" class="quant"></td>
+                    <td class="section-p1">Rs: 64600</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section id= "cart-add"class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+        <div id="subtotal" >
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs 1,30,900</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <strong><td>Total</td></strong>
+                    <strong><td>1,17,810</td></strong> 
+                        
+                    </strong>
+                </tr>
+            </table>
+            <button id="ptc">Proceed To Checkout</button>
+            
+        </div>
+    </section>
+
+
+</body>
+
+</html>
